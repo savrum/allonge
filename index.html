@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Allongé</title>
+    <meta charset="utf-8">
+    <meta name="description" content="An image-to-base64 utility Web API written in vanilla Go for passing images to various app intents." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="savrum">
+    <style>
+      *{
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Allongé</h1>
+    <p>An image-to-base64 utility Web API written in vanilla Go for passing images to various app intents.</p>
+    <h2>Usage</h2>
+    <p>By nature, response body returns only base64 data as byte stream. You can use response body to get base64.</p>
+    <p>For example;</p>
+    <blockquote>
+      <p>
+        <a href="https://allonge.savrum.com/api?image=https://upload.wikimedia.org/wikipedia/en/4/42/Mother_Simpsons.png">https://allonge.savrum.com/api?image=https://upload.wikimedia.org/wikipedia/en/4/42/Mother_Simpsons.png</a>
+      </p>
+    </blockquote>
+    <h2>Contribution</h2>
+    <p>We are looking forward to implement Allongé as a lightweight image manipulation API.<br/>If you are comfortable with image manipulation with Go, please contact me from alp@savrum.com.</p>
+    <h3>Implementation Checklist</h3>
+    <ul>
+      <li>[x] Convert image to base64</li>
+      <li>[x] Add EXIF data</li>
+      <li>[ ] Response wrappers
+        <ul>
+          <li>[ ] JSON  </li>
+          <li>[ ] YAML</li>
+          <li>[ ] XML</li>
+          <li>[ ] MIME (data:image/extension)</li>
+        </ul>
+      </li>
+      <li>[ ] Image resize</li>
+      <li>[ ] Two layer image overlay (watermarking)</li>
+    </ul>
+  </body>
+</html>
