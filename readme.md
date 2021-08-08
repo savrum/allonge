@@ -10,15 +10,3 @@ For example;
 
 ## Contribution
 We are looking forward to implement Allongé as a lightweight image manipulation API. If you are comfortable with image manipulation with Go, please contact me from alp@savrum.com.
-
-### Implementation Checklist
-- [x] Check if URL is image
-- [x] Convert image to base64
-- [ ] Add EXIF data
-- [ ] Response wrappers  
-    - [ ] JSON  
-    - [ ] YAML
-    - [ ] XML
-    - [ ] MIME (data:image/extension)
-- [ ] Image resize
-- [ ] Two layer image overlay (watermarking)
